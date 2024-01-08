@@ -1,4 +1,4 @@
-def fruit_market():
+def f_market():
     print("\n\n\t\t\t\n\t\t\t\t\t\t\t* * * *  WELCOM TO FRUIT MARKET  * * * *\n\n")
     print("\t\t\t\n\t\t\t\t\t\t\t\t 1] - Manager ")
     print("\t\t\t\n\t\t\t\t\t\t\t\t 2] - Customer \n\n\n")
@@ -83,5 +83,5 @@ def fruit_market():
 
 
 
-fruit_market()
+f_market()
 
