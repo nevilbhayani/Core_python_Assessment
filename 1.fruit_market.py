@@ -48,15 +48,17 @@ def fruit_market():
 
         num2=int(input("\nEnter Your Choice :- "))
         if num2== 1:
-         name1=str(input("Enter Fruit Name :- "))
-         qty1=int(input("Enter Qty (in Kg) :- "))
-         price1=int(input("Enter Price :- "))
+         name3=str(input("Enter Fruit Name :- "))
+         qty3=int(input("Enter Qty (in Kg) :- "))
+         price3=int(input("Enter Price :- "))
 
          print("\n   \t\t\t\t\t\t\t\t  * Thank You *")
         
         elif num2==2:
          print(name,{"QTY:",qty,"PRICE:",price})
          print(name1,{"QTY:",qty1,"PRICE:",price1 })
+         print(name3,{"QTY:",qty3,"PRICE:",price3 })
+
 
          print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
 
@@ -69,11 +71,12 @@ def fruit_market():
         elif num2==2:
          print(name,{"QTY:",qty,"PRICE:",price})
          print(name1,{"QTY:",qty1,"PRICE:",price1 })
-
+         print(name3,{"QTY:",qty3,"PRICE:",price3 })
+         
          print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
          
 
-         
+
 
     elif num1==2:
        print("\n\n\t\t\t\n\t\t\t\t\t\t\t\t* * * Customer * * *")
