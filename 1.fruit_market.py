@@ -72,7 +72,7 @@ def fruit_market():
          print(name,{"QTY:",qty,"PRICE:",price})
          print(name1,{"QTY:",qty1,"PRICE:",price1 })
          print(name3,{"QTY:",qty3,"PRICE:",price3 })
-         
+
          print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
          
 
