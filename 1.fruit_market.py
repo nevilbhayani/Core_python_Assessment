@@ -19,8 +19,8 @@ def f_market():
     
         if num2 == 1:
          print("\n   \t\t\t\t\t\t\t\t  ~ ADD FRUIT STOCK ~\n")
-         name=str(input("\n Enter Fruit Name :- "))
-         qty=int(input(" Enter Qty (in Kg) :- "))
+         name=str(input("\nEnter Fruit Name :- "))
+         qty=int(input("Enter Qty (in Kg) :- "))
          price=int(input("Enter Price :- "))
          print("\n")
          print("\n")
