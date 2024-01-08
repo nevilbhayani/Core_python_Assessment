@@ -37,7 +37,7 @@ def fruit_market():
             print("\n   \t\t\t\t\t\t\t\t * * Thank You * *\n\n")
     
         elif num2==2:
-         print("\n\n'",name,"'",{"QTY:",qty,'PRICE',price,"\n\n"})
+         print(name,"'",{"QTY:",qty,'PRICE',price,"\n\n"})
 
         else:
            print("\n   \t\t\t\t\t\t\t\t  * Thank you *")
@@ -52,23 +52,23 @@ def fruit_market():
          print("\n   \t\t\t\t\t\t\t\t  * Thank You *")
         
         elif num2==2:
-         print("\n\n",name,{"QTY:",qty,"PRICE:",price})
+         print(name,{"QTY:",qty,"PRICE:",price})
          print(name1,{"QTY:",qty1,"PRICE:",price1 })
 
          print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
 
         num2=int(input("\nEnter Your Choice :- "))
         if num2== 1:
-         name1=str(input("Enter Fruit Name :- "))
-         qty1=int(input("Enter Qty (in Kg) :- "))
-         price1=int(input("Enter Price :- "))
+         print("\n   \t\t\t\t\t\t\t\t  * Sorry stock is full *")
         
         elif num2==2:
          print(name,{"QTY:",qty,"PRICE:",price})
          print(name1,{"QTY:",qty1,"PRICE:",price1 })
-    
 
-    if num1==2:
+         print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
+         
+
+    elif num1==2:
        print("\n\n\t\t\t\n\t\t\t\t\t\t\t\t* * * Customer * * *")
 
 fruit_market()
