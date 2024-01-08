@@ -15,15 +15,15 @@ def fruit_market():
         print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",y)
         print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",z)
 
-    num2=int(input("\nEnter Your Choice :- "))
+        num2=int(input("\nEnter Your Choice :- "))
     
-    if num2 == 1:
-        print("\n   \t\t\t\t\t\t\t\t  ~ ADD FRUIT STOCK ~\n")
-        name=str(input("\n Enter Fruit Name :- "))
-        qty=int(input(" Enter Qty (in Kg) :- "))
-        price=int(input("Enter Price :- "))
-        print("\n")
-        print("\n")
+        if num2 == 1:
+         print("\n   \t\t\t\t\t\t\t\t  ~ ADD FRUIT STOCK ~\n")
+         name=str(input("\n Enter Fruit Name :- "))
+         qty=int(input(" Enter Qty (in Kg) :- "))
+         price=int(input("Enter Price :- "))
+         print("\n")
+         print("\n")
 
         a=str(input(" Do you want to perfoem more operations : press 'y' for yes and 'n' for no :- "))
         print("\n")
@@ -34,21 +34,42 @@ def fruit_market():
             qty1=int(input("Enter Qty (in Kg) :- "))
             price1=int(input("Enter Price :- "))
         elif a == "n" or a == "N":
-           print("\n   \t\t\t\t\t\t\t\t * * Thank You * *")
+            print("\n   \t\t\t\t\t\t\t\t * * Thank You * *\n\n")
+    
+        elif num2==2:
+         print("\n\n'",name,"'",{"QTY:",qty,'PRICE',price,"\n\n"})
 
-    elif num2==2:
-     print("\n\n'",name,"'",{"QTY:",qty,'PRICE',price,"\n\n"})
+        else:
+           print("\n   \t\t\t\t\t\t\t\t  * Thank you *")
 
 
-    num2=int(input("\nEnter Your Choice :- "))
-    if num2== 1:
-        name1=str(input("Enter Fruit Name :- "))
-        qty1=int(input("Enter Qty (in Kg) :- "))
-        price1=int(input("Enter Price :- "))
-    elif num2==2:
-        print("\n\n",name,{"QTY:",qty,"PRICE:",price})
-        print(name1,{"QTY:",qty1,"PRICE:",price1 })
-       
+        num2=int(input("\nEnter Your Choice :- "))
+        if num2== 1:
+         name1=str(input("Enter Fruit Name :- "))
+         qty1=int(input("Enter Qty (in Kg) :- "))
+         price1=int(input("Enter Price :- "))
+
+         print("\n   \t\t\t\t\t\t\t\t  * Thank You *")
+        
+        elif num2==2:
+         print("\n\n",name,{"QTY:",qty,"PRICE:",price})
+         print(name1,{"QTY:",qty1,"PRICE:",price1 })
+
+         print("\n\n\n   \t\t\t\t\t\t\t\t  * Thank You * ")
+
+        num2=int(input("\nEnter Your Choice :- "))
+        if num2== 1:
+         name1=str(input("Enter Fruit Name :- "))
+         qty1=int(input("Enter Qty (in Kg) :- "))
+         price1=int(input("Enter Price :- "))
+        
+        elif num2==2:
+         print(name,{"QTY:",qty,"PRICE:",price})
+         print(name1,{"QTY:",qty1,"PRICE:",price1 })
+    
+
+    if num1==2:
+       print("\n\n\t\t\t\n\t\t\t\t\t\t\t\t* * * Customer * * *")
 
 fruit_market()
 
